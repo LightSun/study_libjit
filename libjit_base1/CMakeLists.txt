@@ -27,3 +27,15 @@ add_executable(t4
 add_executable(t5
     sample/t5.c
 )
+add_executable(gcd-iter
+    sample/gcd_iter.c
+)
+add_executable(jit_x64
+    sample/basic_self_jit_x64.c
+)
+add_executable(call_c
+    sample/call_c_from_jit.c
+)
+add_executable(call_puts
+    sample/call_puts_from_jit.c
+)
