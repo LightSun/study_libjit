@@ -22,6 +22,7 @@ int main(int argc, char** argv) {
 
   // char* bufptr
 #define CONST_BYTE(v) (jit_value_create_nint_constant(F, jit_type_ubyte, v))
+  //jit_type_create_struct
   jit_type_t type_cstring = jit_type_create_pointer(jit_type_sys_char, 1);
   jit_value_t bufptr = jit_value_create(F, type_cstring);
 

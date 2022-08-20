@@ -39,3 +39,12 @@ add_executable(call_c
 add_executable(call_puts
     sample/call_puts_from_jit.c
 )
+add_executable(test_struct
+    h7/test_struct.c
+)
+add_executable(test_fib
+    h7/fib.c
+    h7/object.h
+    h7/object.c
+    h7/imp.c
+)
